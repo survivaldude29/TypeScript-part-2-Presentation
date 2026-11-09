@@ -7,14 +7,14 @@
 
 /***************************************************************************************************************************************************************************/
 //Let's designate data types for our values
-const add = (x, y) => x + y;
-console.log(add('1','1')) 
-console.log(add(1,'1'));
+const add = (x: number, y: number) => x + y;
+// console.log(add('1','1')) 
+// console.log(add(1,'1'));
 console.log(add(1,1))
-console.log(add(null,undefined));
+// console.log(add(null,undefined));
 console.log();
 /***************************************************************************************************************************************************************************/
-//Mapping: .set(key, value)   .get(key)   .has(key)   .delete(key)   .size()   .clear()
+// Mapping: 
 let myMap = new Map<string, number>();
 myMap.set('A', 10);
 myMap.set('B', 20);
@@ -24,8 +24,9 @@ myMap.forEach((value, key) => {
 });
 console.log("")
 /***************************************************************************************************************************************************************************/
-let theTuple: [number, boolean, string]
-theTuple = [55, true, 'The Coding God is not here']
+// Tuple:
+let theTuple: [number, boolean, string, string, number, string]
+theTuple = [55, true, 'The Coding God is not here', 'hello', 49, 'I love TypeScript']
 console.log(theTuple)
 console.log("\n")
 /***************************************************************************************************************************************************************************/

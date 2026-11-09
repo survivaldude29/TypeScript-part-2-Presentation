@@ -1,10 +1,3 @@
-/*  In this program...
-*   
-  !!! 2 mins each code secton = 6 mins
-  !!! Expect questions to answers
-*   (We will comment out the programs accordingly.)
-*/
-
 // THIS SHOWS THE STRONGEST SCALABILITY AND REUSABILITY EXAMPLE
 //Generics example
 interface Resource<T> {
