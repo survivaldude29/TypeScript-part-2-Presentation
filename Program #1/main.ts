@@ -7,26 +7,26 @@
 
 /***************************************************************************************************************************************************************************/
 //Let's designate data types for our values
-const add = (x: number, y: number) => x + y;
-// console.log(add('1','1')) 
-// console.log(add(1,'1'));
+const add = (x, y) => x + y;
+console.log(add('1','1')) 
+console.log(add(1,'1'));
 console.log(add(1,1))
-// console.log(add(null,undefined));
+console.log(add(null,undefined));
 console.log();
 /***************************************************************************************************************************************************************************/
 // Mapping: 
 let myMap = new Map<string, number>();
-myMap.set('A', 10);
+myMap.set(true, '10');
 myMap.set('B', 20);
-myMap.set('C', 30);
+myMap.set('false', '30');
 myMap.forEach((value, key) => {
   console.log(`Key: ${key}, value: ${value}`);
 });
 console.log("")
 /***************************************************************************************************************************************************************************/
 // Tuple:
-let theTuple: [number, boolean, string, string, number, string]
-theTuple = [55, true, 'The Coding God is not here', 'hello', 49, 'I love TypeScript']
+let theTuple: [number, boolean, string]
+theTuple = ['The Coding God is not here', 55, true,]
 console.log(theTuple)
 console.log("\n")
 /***************************************************************************************************************************************************************************/
